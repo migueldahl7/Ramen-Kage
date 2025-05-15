@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detalhes -Mochi </title>
+  <link rel="stylesheet" href="detalhe1.html/>
+<head>
+<body>
+  <nav class="navbar">
+    <a href="cardapio.html">Voltar ao Cardápio</a>
+  </nav>
+  <main class="detalhes-container">
+    <div class="detalhes-card">
+      <img src="imagens/Mochi.jpg" alt="Mochi" class="img-produto" />
+      <h2>Mochi
+      <p>Bolinho de arroz glutinoso com recheios variados, como pasta doce de feijão azuki ou frutas.
+      <p class="preco">R$ 12,90/cada
+      <button class="btn-pedido">Fazer Pedido</button>
+
+      <form class="form-promocao" onsubmit="event.preventDefault(); alert('E-mail cadastrado com sucesso!');">
+        <label for="email1">Receber promoções:</label><br />
+        <input type="email" id="email1" name="email1" placeholder="Digite seu e-mail" required />
+        <br />
+        <input type="checkbox" id="termos1" required />
+        <label for="termos1">Aceito os termos de uso</label>
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+   <style>main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  color: #ebebeb;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f73708;
+  border: none;
+  color: #f3f2f2;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  animation: piscar 1s infinite alternate;
+}
+
+@keyframes piscar {
+  0% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+</style>
+  </main>
+</body>
+</html>

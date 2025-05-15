@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cardápio - Ramen Kage</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #181817;
+      padding-bottom: 40px;
+    }
+    /* Navbar */
+    .navbar-brand {
+      font-weight: 700;
+      color: #ff4d4d !important;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .btn-voltar {
+      background-color: #ff4d4d;
+      color: rgb(236, 226, 226);
+      border: none;
+    }
+    .btn-voltar:hover {
+      background-color: #cc0000;
+      color: rgb(241, 239, 239);
+    }
+    /* Cards */
+    .card-title {
+      text-align: center;
+      font-weight: 600;
+      color: #333;
+    }
+    .card-text {
+      font-size: 0.9rem;
+      color: #555;
+      min-height: 50px;
+    }
+    .btn-detalhes {
+      background-color: #ff4d4d;
+      color: rgb(247, 246, 246);
+      border-radius: 20px;
+      border: none;
+      width: 100%;
+    }
+    .btn-detalhes:hover {
+      background-color: #cc0000;
+      color: rgb(233, 228, 228);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ramen Kage</a>
+      <button class="btn btn-voltar me-3" onclick="location.href='index.html'">Voltar</button>
+
+      <form class="d-flex flex-grow-1" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar produto" aria-label="Buscar" />
+        <button class="btn btn-outline-danger" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <main class="container mt-4">
+    <div class="row g-4">
+
+    
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Tonkotsu Ramen.jpg"  class="card-img-top" alt="Tonkotsu Ramen" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Tonkotsu Ramen</h5>
+            <p class="card-text">Caldo de ossos de porco, cremoso e encorpado, com macarrão.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe1.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Yakissoba.png" class="card-img-top" alt="Yakisoba" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Yakisoba</h5>
+            <p class="card-text">Macarrão frito com vegetais, carne e molho especial.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe2.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Gyoza.jpg" class="card-img-top" alt="Gyoza" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Gyoza</h5>
+            <p class="card-text">Pastel japonês recheado, grelhado e crocante.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe3.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Tempurá.webp" class="card-img-top" alt="Tempurá" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Tempurá</h5>
+            <p class="card-text">Legumes e camarão empanados e fritos crocantes.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe4.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Sashimi.jpg" class="card-img-top" alt="Sashimi" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Sashimi</h5>
+            <p class="card-text">Fatias finas de peixe cru fresco, servidas com molho.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe5.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Onigiri.jpg" class="card-img-top" alt="Onigiri" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Onigiri</h5>
+            <p class="card-text">Bolinho de arroz recheado, prático e delicioso.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe6.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+      
+       <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Mochi.jpg" class="card-img-top" alt="Mochi" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Mochi</h5>
+            <p class="card-text">Bolinho de arroz glutinoso com recheios variados, como pasta doce de feijão azuki ou frutas.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe7.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Dorayaki.jpg" class="card-img-top" alt="Dorayaki" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Dorayaki</h5>
+            <p class="card-text">Dois discos fofos de panqueca recheados com pasta doce de feijão (anko), popularizado pelo personagem Doraemon.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe8.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+      <!-- Produto Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagens/Taiyaki.jpg" class="card-img-top" alt="Taiyaki" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Taiyaki</h5>
+            <p class="card-text">Doce em formato de peixe recheado, geralmente com anko (feijão doce), creme de baunilha ou chocolate.</p>
+            <button class="btn btn-detalhes mt-auto" onclick="window.location.href='detalhe9.html'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

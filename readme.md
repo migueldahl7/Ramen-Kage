@@ -6,7 +6,7 @@ Este projeto é um site fictício para um restaurante oriental chamado **Ramen K
 
 - **index.html**: Página inicial com logo estilizado.
 - **cardapio.html**: Página do cardápio que exibe vários pratos em formato de cartões.
-- **detalhe1.html** até **detalhe6.html**: Páginas de detalhes para cada produto.
+- **detalhe1.html** até **detalhe9.html**: Páginas de detalhes para cada produto.
 - **css/**: Contém arquivos CSS para estilização.
 - **images/**: Imagens usadas no site.
 
